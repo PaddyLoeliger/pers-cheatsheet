@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS Cheatsheet</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <nav>
+        <ul>
+            <li><a href='./index.html'class='active_nav'>CSS</a></li>
+            <li><a href='./HTML.html'>HTML</a></li>
+            <li><a href='./JavaScript.html'>JavaScript</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <section>
+        <h2>Fonts and Text</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope='col'>attribute</th>
+                    <th scope='col'>example values</th>
+                    <th scope='col'>details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">font-size</td>
+                    <td>2em, 22px</td>
+                    <td>font size, either in em or px</td>
+                </tr>    
+                <tr>
+                    <td class="code">font-weight</td>
+                    <td>bold, 100</td>
+                    <td>choose how bold the font will be</td>
+                </tr>    
+                <tr>
+                    <td class="code">font-style</td>
+                    <td>italic, bold</td>
+                    <td>The style you want to apply to the text</td>
+                </tr>    
+                <tr>
+                    <td class="code">font-family</td>
+                    <td>Helvetica, sans-serif, Lato</td>
+                    <td>Chooses the font</td>
+                </tr>
+                <tr>
+                    <td class="code">text-align</td>
+                    <td>left,center, justify</td>
+                    <td>where the text should align itself to the parent element</td>
+                </tr>    
+                <tr>
+                    <td class="code">list-style</td>
+                    <td>square, circle</td>
+                    <td>Select how the list should display as</td>
+                </tr>    
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <section>
+        <h2>Borders and Placement</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope='col'>attribute</th>
+                    <th scope='col'>example values</th>
+                    <th scope='col'>details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">margin</td>
+                    <td>auto, 20px</td>
+                    <td>create space around elements, outside of any defined borders.
+                        if auto is selected, will center the element
+                    </td>   
+                </tr>
+                <tr>
+                    <td class="code">width</td>
+                    <td>60%</td>
+                    <td>width to take relative to parent element</td>
+                </tr>    
+                <tr>
+                    <td class="code">height</td>
+                    <td>auto, 300px, 30%</td>
+                    <td>Choose the height of the element inside the padding, border and margin of the element</td>
+                </tr>    
+                <tr>
+                    <td class="code">padding</td>
+                    <td>20px,5%</td>
+                    <td>Use to create space around an element's content, inside of the defined borders</td>
+                </tr>
+                <tr>
+                    <td class="code">border</td>
+                    <td>1px solid red</td>
+                    <td>defines how the border of the element will look like. border-style must be set for it to display</td>
+                </tr>
+                <tr>
+                    <td class="code">border-style</td>
+                    <td>solid,none, hidden, dashed, double, groove</td>
+                    <td>defines what type the border should be</td>
+                </tr>
+                <tr>
+                    <td class="code">line-height</td>
+                    <td>24px, 20%, 3</td>
+                    <td>sets the height of a line</td>
+                </tr>
+                <tr>
+                    <td class="code">float</td>
+                    <td>left, right</td>
+                    <td>specifies how an element should float</td>
+                </tr>
+                <tr>
+                    <td class="code">opacity</td>
+                    <td>0, 0.1, 0.9, 1</td>
+                    <td>Select opacity of element. Goes from 0 to 1</td>
+                </tr>
+                <tr>
+                    <td class="code">position</td>
+                    <td>relative, static, fixed, absolute, sticky</td>
+                    <td>specifies type of positioning method used for an element</td>
+                </tr>
+                <tr>
+                    <td class="code">box-shadow</td>
+                    <td>5px 0px 5px 0px white</td>
+                    <td>sets a shadow to an element</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <section>
+        <h2>Transformations</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope='col'>attribute</th>
+                    <th scope='col'>example values</th>
+                    <th scope='col'>details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">text-transform</td>
+                    <td>uppercase, lowercase, capitalize</td>
+                    <td>changes the case of the text</td>
+                </tr>
+                <tr>
+                    <td class="code">!important</td>
+                    <td>color:blue !important</td>
+                    <td>Will override existing tag attribute. Very hard to override this</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <section>
+        <h2>Background</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope='col'>attribute</th>
+                    <th scope='col'>example values</th>
+                    <th scope='col'>details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">display</td>
+                    <td>block, none, inline</td>
+                    <td>selects how the element should display as</td>
+                </tr>
+                <tr>
+                    <td class="code">background-color</td>
+                    <td>white, red, #FFF</td>
+                    <td>Selects the color of the background for the element</td>
+                </tr>
+                <tr>
+                    <td class="code">background</td>
+                    <td> rgba(0,128,0,0.3)</td>
+                    <td>Shorthand property for background-color and opacity</td>
+                </tr>
+                <tr>
+                    <td class="code">background-image</td>
+                    <td>url(http://...)</td>
+                    <td>places a background image. Either external or internal links</td>
+                </tr>
+                <tr>
+                    <td class="code">background-size</td>
+                    <td>auto, cover, %, contain</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="code">background-position</td>
+                    <td>center center, x% y%, xpos ypos</td>
+                    <td>sets the starting position of the background image</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+    <section>
+
+    </section>
+</body>
+</html>
